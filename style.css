@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #21243d;
+}
+
+.container {
+  width: 1152px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.header nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.hero img {
+  border-radius: 50%;
+}
+
+.posts, .works {
+  padding: 40px 0;
+}
+
+.post-list {
+  display: flex;
+  gap: 20px;
+}
+
+.post, .work {
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.figma-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  color: white;
+  padding: 10px 14px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
